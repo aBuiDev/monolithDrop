@@ -18,12 +18,13 @@ const hoverDivAnimationOut = () => {
       });
 }
 
-hoverDiv.addEventListener('mouseover', (event) => {
-    hoverDivAnimationOver();
-});
+// hoverDiv.addEventListener('mouseover', (event) => {
+//     hoverDivAnimationOver();
+// });
 
-hoverDiv.addEventListener('mouseout', (event) => {
-    hoverDivAnimationOut();
-});
+// hoverDiv.addEventListener('mouseout', (event) => {
+//     hoverDivAnimationOut();
+// });
 
-
+hoverDiv.addEventListener('mouseover', hoverDivAnimationOver);
+hoverDiv.addEventListener('mouseout', hoverDivAnimationOut);
