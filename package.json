@@ -1,0 +1,22 @@
+{
+  "name": "monolithdrop",
+  "version": "0.0.1",
+  "description": "aBuiDev's Monolith Drop",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aBuiDev/monolithDrop.git"
+  },
+  "author": "aBuiDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aBuiDev/monolithDrop/issues"
+  },
+  "homepage": "https://github.com/aBuiDev/monolithDrop#readme",
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
+}
